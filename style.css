@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #5cb85c; /* Un verde agradable */
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #5cb85c;
+}
+
+#programacion ul {
+  list-style: none;
+  padding: 0;
+}
+
+#programacion li {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#programacion li div h3 {
+  color: #337ab7; 
+  margin-top: 0;
+}
+
+#programacion li div img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+#programacion li div p {
+  margin-top: 10px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+  position: sticky; 
+  bottom: 0;
+  width: 100%;
+}
